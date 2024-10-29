@@ -17,7 +17,7 @@ public class Atividade1 {
         novoSalario = salarioAtual + abono;
         System.out.printf("\nO novo salário é: %.2f\n", novoSalario);
         
-
+        scanner.close();
 	}
 
 }

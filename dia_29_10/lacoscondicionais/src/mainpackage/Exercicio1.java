@@ -26,11 +26,11 @@ public class Exercicio1 {
 
 		//Saida
 		if((num1+num2)>num3){
-			System.out.printf("\n%d + %d = %d > %d\nA Soma de A + B é Maior que C",num1,num2,num1+num2,num3);
+			System.out.printf("\n%d + %d = %d > %d\nA Soma de A + B é Maior do que C",num1,num2,num1+num2,num3);
 		}else if((num1+num2)==num3){
-			System.out.printf("\n%d + %d = %d = %d\nA Soma de A + B é Menor que C",num1,num2,num1+num2,num3);
+			System.out.printf("\n%d + %d = %d = %d\nA Soma de A + B é Igual a C",num1,num2,num1+num2,num3);
 		}else {
-			System.out.printf("\n%d + %d = %d < %d\nA Soma de A + B é Igual a C",num1,num2,num1+num2,num3);}
+			System.out.printf("\n%d + %d = %d < %d\nA Soma de A + B é Menor do que C",num1,num2,num1+num2,num3);}
 
 		leitor.close();
 	}

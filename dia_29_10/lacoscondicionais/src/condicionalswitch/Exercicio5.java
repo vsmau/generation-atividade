@@ -6,8 +6,8 @@ public class Exercicio5 {
 
 	public static void main(String[] args) {
 		// Declarar variáveis
-		int codigo, qtd=0, vlr=0;
-		String pdt ="";
+		int codigo, qtd = 0, vlr = 0;
+		String pdt = "";
 		Scanner leitor = new Scanner(System.in);
 
 		// Ler dados
@@ -17,7 +17,7 @@ public class Exercicio5 {
 		System.out.println("Digite a quantidade: ");
 		qtd = leitor.nextInt();
 
-		// Quantidade
+		// Calculo do valor
 		switch (codigo) {
 		case 1:
 			vlr = 10 * qtd;
@@ -45,6 +45,7 @@ public class Exercicio5 {
 			break;
 		}
 
+		// Saida valor
 		System.out.printf("\nProduto: %s \nValor total: %d", pdt, vlr);
 
 		leitor.close();

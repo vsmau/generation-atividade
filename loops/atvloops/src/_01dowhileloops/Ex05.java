@@ -4,7 +4,7 @@
  *digitados, que sejam positivos.
  * */
 
-package dowhileloops;
+package _01dowhileloops;
 
 import java.util.Scanner;
 

@@ -16,7 +16,7 @@ public class Ex03 {
 		// Declaração variáveis
 		Scanner scanner = new Scanner(System.in);
 		int idade = 0, menor = 0, maior = 0;
-		
+
 		// Loop e entrada de dados
 		while (idade >= 0) {
 			System.out.println("Digite uma idade: ");

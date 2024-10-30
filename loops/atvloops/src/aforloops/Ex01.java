@@ -5,7 +5,7 @@
  * mostre na tela todes os números que são múltiplos de 3 e 5
  * */
 
-package forloops;
+package aforloops;
 
 import java.util.Scanner;
 

@@ -4,7 +4,7 @@
  *digitados, que sejam positivos.
  * */
 
-package _01dowhileloops;
+package cdowhileloops;
 
 import java.util.Scanner;
 
@@ -21,7 +21,7 @@ public class Ex05 {
 			if (num > 0) {
 				soma += num;
 			}
-		} while (num != 0);
+		} while (num != 0);//boolean true false
 		// Saida da soma
 		System.out.println("A soma dos números positivos é: " + soma);
 

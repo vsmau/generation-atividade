@@ -6,7 +6,7 @@
  *idade negativa.
  * */
 
-package whileloops;
+package bwhileloops;
 
 import java.util.Scanner;
 

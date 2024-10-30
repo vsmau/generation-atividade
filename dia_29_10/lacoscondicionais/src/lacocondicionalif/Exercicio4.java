@@ -2,7 +2,7 @@
  * de um tipo de animal possível segundo o diagrama abaixo, que deve ser lido da esquerda para a direita.
  * */
 
-package mainpackage;
+package lacocondicionalif;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class Exercicio4 {
 
 	public static void main(String[] args) {
 		// Declaração de variáveis
-		String tipo, grupo, dieta, especie;
+		String tipo, grupo, dieta;
 		Scanner ler = new Scanner(System.in);
 
 		// Ler dados
@@ -23,7 +23,7 @@ public class Exercicio4 {
 		System.out.println("Qual a dieta (carnívoro,onívoro,herbívoro)");
 		dieta = ler.nextLine();
 
-		//Verificar tipo
+		// Verificar tipo
 		if (tipo.equalsIgnoreCase("vertebrado")) {
 			if (grupo.equalsIgnoreCase("ave")) {
 				if (dieta.equalsIgnoreCase("carnívoro")) {
@@ -68,7 +68,7 @@ public class Exercicio4 {
 		} else {
 			System.out.println("Digitou errado (vertebrado ou invertebrado) :( ");
 		}
-
+		ler.close();
 	}
 
 }

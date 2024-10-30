@@ -5,7 +5,7 @@
  * mostre na tela se o doador está Apto ou Não Apto para doar sangue. 
  */
 
-package mainpackage;
+package lacocondicionalif;
 
 import java.util.Scanner;
 

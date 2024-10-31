@@ -12,15 +12,17 @@ import java.util.Scanner;
 public class Ex01 {
 
 	public static void main(String[] args) {
-		// Declaração de variáveis
+		// Declaração de variáveis e do leitor de dados
 		Scanner leitor = new Scanner(System.in);
 		int num1, num2;
-		// Entrada de dados
+
+		// Lê os dois números inteiros via teclado
 		System.out.println("Digite o primeiro número: ");
 		num1 = leitor.nextInt();
 		System.out.println("Digite o segundo número: ");
 		num2 = leitor.nextInt();
-		// Saida de dados
+
+		// Saida de dados e laço de repetição
 		if (num1 < num2) {
 			for (int i = num1; i < num2; i++) {
 				if (i % 3 == 0 && i % 5 == 0) {

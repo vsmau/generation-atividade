@@ -11,21 +11,22 @@ import java.util.Scanner;
 public class Ex05 {
 
 	public static void main(String[] args) {
-		// Declaração de variáveis
+		// Iniciar variáveis e leitor de dados
 		Scanner leitor = new Scanner(System.in);
 		int num, soma = 0;
-		// Entrada e saida de dados e loop
+
+		// Entrada pelo teclado e laço para somar os números positivos
 		do {
 			System.out.println("Digite um número: ");
 			num = leitor.nextInt();
 			if (num > 0) {
 				soma += num;
 			}
-		} while (num != 0);//boolean true false
-		// Saida da soma
+		} while (num != 0);
+
+		// Saída da soma dos números positivos
 		System.out.println("A soma dos números positivos é: " + soma);
 
 		leitor.close();
 	}
-
 }

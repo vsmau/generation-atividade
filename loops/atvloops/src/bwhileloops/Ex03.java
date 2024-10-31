@@ -13,11 +13,11 @@ import java.util.Scanner;
 public class Ex03 {
 
 	public static void main(String[] args) {
-		// Declaração variáveis
+		// Iniciar variáveis e leitor de dados
 		Scanner scanner = new Scanner(System.in);
 		int idade = 0, menor = 0, maior = 0;
 
-		// Loop e entrada de dados
+		// Loop e entrada de dados via teclado
 		while (idade >= 0) {
 			System.out.println("Digite uma idade: ");
 			idade = scanner.nextInt();
@@ -27,7 +27,7 @@ public class Ex03 {
 				maior++;
 			}
 		}
-		// Saida das somas
+		// Saida das somas das pessoas menores de 21 e das maiores de 50
 		System.out.println("Total de pessoas menores de 21 anos: " + menor);
 		System.out.println("Total de pessoas maiores de 50: " + maior);
 		scanner.close();

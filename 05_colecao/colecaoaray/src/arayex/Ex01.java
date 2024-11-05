@@ -11,7 +11,6 @@
 package arayex;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Scanner;
 
 public class Ex01 {
@@ -25,7 +24,7 @@ public class Ex01 {
 			System.out.println("Digite uma cor: ");
 			cores.add(scanner.nextLine());
 		}
-		
+
 		// Saida das cores
 		System.out.println(cores);
 

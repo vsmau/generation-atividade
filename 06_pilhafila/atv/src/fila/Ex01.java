@@ -29,22 +29,30 @@ public class Ex01 {
 			case 1:
 				System.out.println("\tDigite um nome: ");
 				fila.add(scanner.nextLine());
-				System.out.println(fila + " \nCliente Adicionado!");
+				for (String cliente : fila) {
+					System.out.println(cliente);
+				}
+				System.out.println("\n Cliente Adicionado!");
 				break;
 			case 2:
-				System.out.println(fila);
+				for (String cliente : fila) {
+					System.out.println(cliente);
+				}
 				break;
 			case 3:
 				if (fila.isEmpty()) {
-					System.out.println("Pilha está vazia");
+					System.out.println("\n Não tem clientes na fila");
 				} else {
 					fila.remove();
-					System.out.println(fila + " \nO Livro foi retirado da pilha!");
+					for (String cliente : fila) {
+						System.out.println(cliente);
+					}
+					System.out.println("\n O cliente foi chamado!");
 				}
 				break;
 			case 0:
 				digito = 0;
-				System.out.println("Programa finalizado!");
+				System.out.println("\n Programa finalizado!");
 				scanner.close();
 				break;
 			}

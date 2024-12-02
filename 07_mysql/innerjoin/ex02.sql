@@ -62,9 +62,3 @@ SELECT nome_pizza, tamanho, preco, ingredientes, tb_categorias.nome_categoria
 FROM tb_pizzas INNER JOIN tb_categorias
 ON tb_pizzas.id_categoria = tb_categorias.id_categoria
 WHERE tb_categorias.nome_categoria = "Doces";
-
-  
-SELECT * FROM tb_pizzas;
-SELECT * FROM tb_categorias;
-DROP TABLE tb_pizzas;
-DROP TABLE tb_categorias;
